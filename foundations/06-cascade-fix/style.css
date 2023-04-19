@@ -2,13 +2,12 @@ body{
   font-family:Arial, Helvetica, sans-serif
 }
 
-.para,
-.small-para {
+.para { /*remove group (.small-para)*/
   color: hsl(0, 0%, 0%);
   font-weight: 800;
 }
 
-.small-para {
+.para.small-para { /*add chain*/
   font-size: 14px;
   font-weight: 800;
 }
@@ -17,19 +16,19 @@ body{
   font-size: 22px;
 }
 
-.confirm {
+.button.confirm { /*add chain*/
   background: green;
   color: white;
   font-weight: bold;
 } 
 
-.button {
+.button.cancel { /*add chain*/
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
 
-.child {
+.text.child { /*add chain (.text)*/
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;

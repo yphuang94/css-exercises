@@ -1,0 +1,53 @@
+/*
+Since all the <p> tags share similarities, you can actually consolidate the styling. 
+No need for 3 unique classes.
+
+
+.first-class {
+    background-color:pink;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+.second-class {
+    background-color:pink;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+    font-size: 24px;
+}
+.third-class{
+    background-color:pink;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+
+
+STYLING V2 BELOW
+
+
+p {
+    background-color:pink;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+above applies styling to all <p> tags
+
+.second-class {
+    font-size: 24px;
+}
+
+the second class is the only <p> with additional styling
+
+#first-id {
+    color: blue;
+    font-size: 36px;
+}
+#second-id {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+
+The solution actually had odds as a class selector (".odd") rather than a type selector (<p>).
+
+
+

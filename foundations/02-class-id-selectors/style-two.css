@@ -1,0 +1,21 @@
+/* Redoing with more efficient solution */
+
+.odds {
+    background-color: pink;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.twentyfour {
+    font-size: 24px;
+}
+/* can be using a better description, such as "adjust-font-size"*/
+
+#four {
+    background-color: lightgreen;
+    font-weight: 700;
+}
+
+#two {
+    font-size: 36px;
+    color: blue;
+}

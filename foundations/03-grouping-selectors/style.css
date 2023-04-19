@@ -1,0 +1,33 @@
+/*
+.font-and-size {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+.first-element {
+    background-color: black;
+    color: white;
+}
+
+.second-element {
+    background-color: yellow;
+}
+
+You didn't do the assignment, this is not grouping.
+
+*/
+
+.first-element,
+.second-element {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.first-element {
+    background-color: black;
+    color: white;
+}
+
+.second-element {
+    background-color: yellow;
+}
